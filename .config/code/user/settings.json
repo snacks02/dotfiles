@@ -1,0 +1,58 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "breadcrumbs.enabled": false,
+
+  "editor.bracketPairColorization.enabled": false,
+  "editor.fontFamily": "Iosevka Medium Extended",
+  "editor.fontSize": 14,
+  "editor.fontWeight": "500",
+  "editor.guides.indentation": false,
+  "editor.inlayHints.enabled": "off",
+  "editor.lineHeight": 24,
+  "editor.minimap.enabled": false,
+  "editor.overviewRulerBorder": false,
+  "editor.tabSize": 2,
+
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.decorations.badges": false,
+
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+
+  "git.openRepositoryInParentFolders": "never",
+
+  "security.workspace.trust.enabled": false,
+
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "500",
+
+  "window.commandCenter": false,
+  "window.titleBarStyle": "custom",
+
+  "workbench.colorTheme": "Vitesse Dark",
+  "workbench.iconTheme": "quill-icons",
+  "workbench.layoutControl.enabled": false,
+  "workbench.tree.indent": 20,
+  "workbench.tree.renderIndentGuides": "none"
+}

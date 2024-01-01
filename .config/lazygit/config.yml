@@ -1,0 +1,6 @@
+git:
+  disableForcePushing: true
+
+gui:
+  authorColors:
+    "*": magenta

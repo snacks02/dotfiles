@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+
+extensions="
+  antfu.theme-vitesse
+  bmalehorn.vscode-fish
+  cdonohue.quill-icons
+  EditorConfig.EditorConfig
+  esbenp.prettier-vscode
+"
+
+arguments=""
+for extension in $extensions; do
+  arguments="$arguments --install-extension $extension"
+done
+
+code $arguments

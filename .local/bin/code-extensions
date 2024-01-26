@@ -6,6 +6,7 @@ extensions="
   cdonohue.quill-icons
   EditorConfig.EditorConfig
   esbenp.prettier-vscode
+  timonwong.shellcheck
 "
 
 arguments=""

@@ -1,5 +1,7 @@
 [commit]
 	gpgSign = true
+[core]
+	editor = micro
 [gpg]
 	format = ssh
 [user]

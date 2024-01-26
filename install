@@ -4,8 +4,8 @@ symlink() {
   from="$(pwd)/$1"
   to="$HOME/$2"
 
-  mkdir -p $(dirname $to)
-  ln -sf $from $to
+  mkdir -p "$(dirname "$to")"
+  ln -sf "$from" "$to"
 }
 
 symlink .config/code/product.json .config/VSCodium/product.json

@@ -13,4 +13,4 @@ for extension in $extensions; do
   arguments="$arguments --install-extension $extension"
 done
 
-code $arguments
+eval "code $arguments"

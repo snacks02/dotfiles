@@ -10,20 +10,20 @@ y = 2
 size = 10.5
 
 [font.normal]
-family = "Iosevka Term Medium Extended"
-style = "Medium"
+family = "Cascadia Mono"
+style = "Regular"
 
 [font.bold]
-family = "Iosevka Term Medium Extended"
-style = "Medium"
+family = "Cascadia Mono"
+style = "Regular"
 
 [font.italic]
-family = "Iosevka Term Medium Extended"
-style = "Medium"
+family = "Cascadia Mono"
+style = "Regular"
 
 [font.bold_italic]
-family = "Iosevka Term Medium Extended"
-style = "Medium"
+family = "Cascadia Mono"
+style = "Regular"
 
 [colors.primary]
 background = "#121212"

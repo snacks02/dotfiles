@@ -42,6 +42,8 @@
 
   "git.openRepositoryInParentFolders": "never",
 
+  "gruvboxConcoctis.useItalicFont": false,
+
   "security.workspace.trust.enabled": false,
 
   "terminal.integrated.fontSize": 14,
@@ -50,7 +52,7 @@
   "window.commandCenter": false,
   "window.titleBarStyle": "custom",
 
-  "workbench.colorTheme": "Vitesse Dark",
+  "workbench.colorTheme": "gruvboxConcoctis dark medium",
   "workbench.iconTheme": "quill-icons",
   "workbench.layoutControl.enabled": false,
   "workbench.tree.indent": 20,

@@ -1,13 +1,13 @@
 #!/usr/bin/env sh
 
 extensions="
-  antfu.theme-vitesse
   bmalehorn.vscode-fish
   cdonohue.quill-icons
   EditorConfig.EditorConfig
   esbenp.prettier-vscode
   tamasfe.even-better-toml
   timonwong.shellcheck
+  wheredoesyourmindgo.gruvbox-concoctis
 "
 
 arguments=""

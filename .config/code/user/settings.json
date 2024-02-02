@@ -21,9 +21,9 @@
   "breadcrumbs.enabled": false,
 
   "editor.bracketPairColorization.enabled": false,
-  "editor.fontFamily": "Cascadia Mono",
+  "editor.fontFamily": "Roboto Mono",
   "editor.fontSize": 14,
-  "editor.fontWeight": "350",
+  "editor.fontWeight": "400",
   "editor.guides.indentation": false,
   "editor.inlayHints.enabled": "off",
   "editor.lineHeight": 23,

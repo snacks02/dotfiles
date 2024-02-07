@@ -44,6 +44,10 @@
 
   "gruvboxConcoctis.useItalicFont": false,
 
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "rust-analyzer.lens.enable": false,
+
   "security.workspace.trust.enabled": false,
 
   "terminal.integrated.fontSize": 14,

@@ -17,4 +17,5 @@ symlink .config/fontconfig/fonts.conf .config/fontconfig/fonts.conf
 symlink .config/foot/foot.ini .config/foot/foot.ini
 symlink .config/git/config .config/git/config
 symlink .config/lazygit/config.yml .config/lazygit/config.yml
+symlink .config/nix/nix.conf .config/nix/nix.conf
 symlink .config/wireplumber/main.lua.d/50-suspend-timeout.lua .config/wireplumber/main.lua.d/50-suspend-timeout.lua

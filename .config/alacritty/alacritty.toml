@@ -10,20 +10,20 @@ y = 2
 size = 10.5
 
 [font.normal]
-family = "Roboto Mono"
-style = "Regular"
+family = "Cascadia Mono"
+style = "SemiLight"
 
 [font.bold]
-family = "Roboto Mono"
-style = "Regular"
+family = "Cascadia Mono"
+style = "SemiLight"
 
 [font.italic]
-family = "Roboto Mono"
-style = "Regular"
+family = "Cascadia Mono"
+style = "SemiLight"
 
 [font.bold_italic]
-family = "Roboto Mono"
-style = "Regular"
+family = "Cascadia Mono"
+style = "SemiLight"
 
 [colors.primary]
 background = "#121212"

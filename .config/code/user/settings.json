@@ -29,6 +29,7 @@
   "editor.lineHeight": 23,
   "editor.minimap.enabled": false,
   "editor.overviewRulerBorder": false,
+  "editor.stickyScroll.enabled": false,
   "editor.tabSize": 2,
 
   "explorer.compactFolders": false,

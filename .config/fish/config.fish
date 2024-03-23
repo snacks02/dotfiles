@@ -10,6 +10,4 @@ if status is-interactive
 
     fish_add_path $HOME/.dotfiles/.local/bin
     fish_add_path $HOME/.local/bin
-
-    set -x GPG_TTY (tty)
 end

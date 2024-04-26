@@ -3,8 +3,9 @@
 extensions="
   bmalehorn.vscode-fish
   cdonohue.quill-icons
-  EditorConfig.EditorConfig
+  editorconfig.editorconfig
   esbenp.prettier-vscode
+  ngryman.codesandbox-theme
   tamasfe.even-better-toml
   timonwong.shellcheck
   wheredoesyourmindgo.gruvbox-concoctis

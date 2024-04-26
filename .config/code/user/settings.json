@@ -57,7 +57,7 @@
   "window.commandCenter": false,
   "window.titleBarStyle": "custom",
 
-  "workbench.colorTheme": "CodeSandbox Black 2021",
+  "workbench.colorTheme": "gruvboxConcoctis dark medium",
   "workbench.iconTheme": "quill-icons",
   "workbench.layoutControl.enabled": false,
   "workbench.tree.indent": 20,

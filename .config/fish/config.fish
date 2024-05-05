@@ -10,7 +10,4 @@ if status is-interactive
     set -x XDG_STATE_HOME $HOME/.local/state
 
     set -x DOCKER_CONFIG $XDG_CONFIG_HOME/docker
-
-    set -x GOMODCACHE $XDG_CACHE_HOME/go/mod
-    set -x GOPATH $XDG_DATA_HOME/go
 end

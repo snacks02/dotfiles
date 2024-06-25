@@ -1,9 +1,5 @@
 [
   {
-    "key": "ctrl+o",
-    "command": "-workbench.action.files.openFile"
-  },
-  {
     "key": "f9",
     "command": "editor.action.sortLinesAscending"
   },

@@ -33,6 +33,16 @@
   "editor.minimap.enabled": false,
   "editor.overviewRulerBorder": false,
   "editor.stickyScroll.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["entity.name.function", "keyword.other.fn.rust"],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
 
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
@@ -45,8 +55,6 @@
 
   "git.openRepositoryInParentFolders": "never",
 
-  "gruvboxConcoctis.useItalicFont": false,
-
   "rust-analyzer.inlayHints.chainingHints.enable": false,
   "rust-analyzer.inlayHints.typeHints.enable": false,
   "rust-analyzer.lens.enable": false,
@@ -54,13 +62,26 @@
   "security.workspace.trust.enabled": false,
 
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontWeight": "500",
+  "terminal.integrated.fontWeight": "350",
 
   "window.commandCenter": false,
   "window.titleBarStyle": "custom",
 
-  "workbench.colorTheme": "gruvboxConcoctis dark medium",
-  "workbench.iconTheme": "quill-icons",
+  "workbench.colorCustomizations": {
+    "icon.foreground": "#5f5f5f",
+    "list.activeSelectionForeground": "#d38569",
+    "list.focusAndSelectionOutline": "#d38569",
+    "list.hoverBackground": "#2b1c18",
+    "list.inactiveSelectionBackground": "#1c293c",
+    "list.inactiveSelectionForeground": "#819DC2",
+    "sideBarSectionHeader.foreground": "#5f5f5f",
+    "sideBarTitle.foreground": "#5f5f5f",
+    "statusBar.background": "#171717",
+    "statusBar.foreground": "#5f5f5f",
+    "toolbar.hoverBackground": "#2b1c18"
+  },
+  "workbench.colorTheme": "Kary Pro Colors － Dark",
+  "workbench.iconTheme": "quill-icons-minimal",
   "workbench.layoutControl.enabled": false,
   "workbench.tree.indent": 20,
   "workbench.tree.renderIndentGuides": "none"

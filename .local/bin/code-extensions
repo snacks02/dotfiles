@@ -5,10 +5,10 @@ extensions="
   cdonohue.quill-icons
   editorconfig.editorconfig
   esbenp.prettier-vscode
+  karyfoundation.theme-karyfoundation-themes
   ngryman.codesandbox-theme
   tamasfe.even-better-toml
   timonwong.shellcheck
-  wheredoesyourmindgo.gruvbox-concoctis
 "
 
 arguments=""

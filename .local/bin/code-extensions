@@ -6,7 +6,6 @@ extensions="
   editorconfig.editorconfig
   esbenp.prettier-vscode
   karyfoundation.theme-karyfoundation-themes
-  ngryman.codesandbox-theme
   tamasfe.even-better-toml
   timonwong.shellcheck
 "

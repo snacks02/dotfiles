@@ -25,7 +25,7 @@
 
   "editor.bracketPairColorization.enabled": false,
   "editor.fontFamily": "Cascadia Mono",
-  "editor.fontSize": 14,
+  "editor.fontSize": 14.4,
   "editor.fontWeight": "350",
   "editor.guides.indentation": false,
   "editor.inlayHints.enabled": "off",

@@ -25,7 +25,7 @@
 
   "editor.bracketPairColorization.enabled": false,
   "editor.fontFamily": "Cascadia Mono",
-  "editor.fontSize": 14.4,
+  "editor.fontSize": 15,
   "editor.fontWeight": "350",
   "editor.guides.indentation": false,
   "editor.inlayHints.enabled": "off",
@@ -36,9 +36,9 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": ["entity.name.function", "keyword.other.fn.rust"],
+        "scope": ["keyword.other.create.sql", "keyword.other.DML.II.sql"],
         "settings": {
-          "fontStyle": ""
+          "foreground": "#cca566"
         }
       }
     ]
@@ -61,26 +61,32 @@
 
   "security.workspace.trust.enabled": false,
 
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 15,
   "terminal.integrated.fontWeight": "350",
 
   "window.commandCenter": false,
   "window.titleBarStyle": "custom",
 
   "workbench.colorCustomizations": {
-    "icon.foreground": "#5f5f5f",
-    "list.activeSelectionForeground": "#d38569",
-    "list.focusAndSelectionOutline": "#d38569",
-    "list.hoverBackground": "#2b1c18",
-    "list.inactiveSelectionBackground": "#1c293c",
-    "list.inactiveSelectionForeground": "#819DC2",
-    "sideBarSectionHeader.foreground": "#5f5f5f",
-    "sideBarTitle.foreground": "#5f5f5f",
-    "statusBar.background": "#171717",
-    "statusBar.foreground": "#5f5f5f",
-    "toolbar.hoverBackground": "#2b1c18"
+    "activityBar.activeBorder": "#cca566",
+    "activityBar.background": "#0a0a0a",
+    "editor.background": "#0a0a0a",
+    "editorGroupHeader.tabsBackground": "#0a0a0a",
+    "editorGutter.background": "#0a0a0a",
+    "list.activeSelectionBackground": "#0a0a0a",
+    "list.focusAndSelectionOutline": "#cca566",
+    "list.hoverBackground": "#292929",
+    "list.inactiveSelectionBackground": "#181818",
+    "sideBar.background": "#0a0a0a",
+    "statusBar.background": "#0a0a0a",
+    "tab.activeBackground": "#0a0a0a",
+    "tab.activeBorderTop": "#cca566",
+    "tab.hoverBackground": "#292929",
+    "tab.inactiveBackground": "#0a0a0a",
+    "titleBar.activeBackground": "#0a0a0a",
+    "titleBar.inactiveBackground": "#0a0a0a"
   },
-  "workbench.colorTheme": "Kary Pro Colors － Dark",
+  "workbench.colorTheme": "dPico Contrast Serious",
   "workbench.iconTheme": "quill-icons-minimal",
   "workbench.layoutControl.enabled": false,
   "workbench.tree.indent": 20,

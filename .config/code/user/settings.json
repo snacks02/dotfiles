@@ -79,6 +79,7 @@
     "list.inactiveSelectionBackground": "#181818",
     "sideBar.background": "#0a0a0a",
     "statusBar.background": "#0a0a0a",
+    "statusBar.focusBorder": "#0a0a0a",
     "tab.activeBackground": "#0a0a0a",
     "tab.activeBorderTop": "#cca566",
     "tab.hoverBackground": "#292929",

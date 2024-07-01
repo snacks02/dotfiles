@@ -38,7 +38,7 @@
       {
         "scope": ["keyword.other.create.sql", "keyword.other.DML.II.sql"],
         "settings": {
-          "foreground": "#cca566"
+          "foreground": "#66b2cc"
         }
       }
     ]
@@ -68,26 +68,26 @@
   "window.titleBarStyle": "custom",
 
   "workbench.colorCustomizations": {
-    "activityBar.activeBorder": "#cca566",
-    "activityBar.background": "#0a0a0a",
-    "editor.background": "#0a0a0a",
-    "editorGroupHeader.tabsBackground": "#0a0a0a",
-    "editorGutter.background": "#0a0a0a",
-    "list.activeSelectionBackground": "#0a0a0a",
-    "list.focusAndSelectionOutline": "#cca566",
-    "list.hoverBackground": "#292929",
-    "list.inactiveSelectionBackground": "#181818",
-    "sideBar.background": "#0a0a0a",
-    "statusBar.background": "#0a0a0a",
-    "statusBar.focusBorder": "#0a0a0a",
-    "tab.activeBackground": "#0a0a0a",
-    "tab.activeBorderTop": "#cca566",
-    "tab.hoverBackground": "#292929",
-    "tab.inactiveBackground": "#0a0a0a",
-    "titleBar.activeBackground": "#0a0a0a",
-    "titleBar.inactiveBackground": "#0a0a0a"
+    "activityBar.activeBorder": "#66b2cc",
+    "activityBar.background": "#000000",
+    "editor.background": "#000000",
+    "editorGroupHeader.tabsBackground": "#000000",
+    "editorGutter.background": "#000000",
+    "list.activeSelectionBackground": "#242424",
+    "list.focusAndSelectionOutline": "#66b2cc",
+    "list.hoverBackground": "#242424",
+    "list.inactiveSelectionBackground": "#121212",
+    "sideBar.background": "#000000",
+    "statusBar.background": "#000000",
+    "statusBar.focusBorder": "#000000",
+    "tab.activeBackground": "#000000",
+    "tab.activeBorderTop": "#66b2cc",
+    "tab.hoverBackground": "#242424",
+    "tab.inactiveBackground": "#000000",
+    "titleBar.activeBackground": "#000000",
+    "titleBar.inactiveBackground": "#000000"
   },
-  "workbench.colorTheme": "dPico Contrast Serious",
+  "workbench.colorTheme": "dPico Contrast Handy",
   "workbench.iconTheme": "quill-icons-minimal",
   "workbench.layoutControl.enabled": false,
   "workbench.tree.indent": 20,

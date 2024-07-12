@@ -33,16 +33,6 @@
   "editor.minimap.enabled": false,
   "editor.overviewRulerBorder": false,
   "editor.stickyScroll.enabled": false,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": ["keyword.other.create.sql", "keyword.other.DML.II.sql"],
-        "settings": {
-          "foreground": "#66b2cc"
-        }
-      }
-    ]
-  },
 
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
@@ -67,30 +57,7 @@
   "window.commandCenter": false,
   "window.titleBarStyle": "custom",
 
-  "workbench.colorCustomizations": {
-    "activityBar.activeBorder": "#66b2cc",
-    "activityBar.background": "#000000",
-    "editor.background": "#000000",
-    "editor.findMatchBackground": "#444444",
-    "editor.findMatchBorder": "#66b2ccaa",
-    "editor.findMatchHighlightBackground": "#444444aa",
-    "editorGroupHeader.tabsBackground": "#000000",
-    "editorGutter.background": "#000000",
-    "list.activeSelectionBackground": "#242424",
-    "list.focusAndSelectionOutline": "#66b2cc",
-    "list.hoverBackground": "#242424",
-    "list.inactiveSelectionBackground": "#121212",
-    "sideBar.background": "#000000",
-    "statusBar.background": "#000000",
-    "statusBar.focusBorder": "#000000",
-    "tab.activeBackground": "#000000",
-    "tab.activeBorderTop": "#66b2cc",
-    "tab.hoverBackground": "#242424",
-    "tab.inactiveBackground": "#000000",
-    "titleBar.activeBackground": "#000000",
-    "titleBar.inactiveBackground": "#000000"
-  },
-  "workbench.colorTheme": "dPico Contrast Handy",
+  "workbench.colorTheme": "Soft Colors (No Italics)",
   "workbench.iconTheme": "quill-icons-minimal",
   "workbench.layoutControl.enabled": false,
   "workbench.tree.indent": 20,

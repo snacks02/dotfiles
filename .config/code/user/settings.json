@@ -24,8 +24,8 @@
   "breadcrumbs.enabled": false,
 
   "editor.bracketPairColorization.enabled": false,
-  "editor.fontFamily": "Fantasque Sans Mono",
-  "editor.fontSize": 17,
+  "editor.fontFamily": "Roboto Mono",
+  "editor.fontSize": 15,
   "editor.fontWeight": "400",
   "editor.guides.indentation": false,
   "editor.inlayHints.enabled": "off",

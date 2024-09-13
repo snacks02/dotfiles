@@ -24,7 +24,7 @@
   "breadcrumbs.enabled": false,
 
   "editor.bracketPairColorization.enabled": false,
-  "editor.fontFamily": "Roboto Mono",
+  "editor.fontFamily": "Iosevka Extended",
   "editor.fontSize": 15,
   "editor.fontWeight": "400",
   "editor.guides.indentation": false,
@@ -38,7 +38,7 @@
       {
         "scope": ["keyword.other.create.sql", "keyword.other.DML.II.sql"],
         "settings": {
-          "foreground": "#4c82d9"
+          "foreground": "#d99e4c"
         }
       }
     ]
@@ -68,27 +68,27 @@
   "window.titleBarStyle": "custom",
 
   "workbench.colorCustomizations": {
-    "activityBar.activeBorder": "#4c82d9",
+    "activityBar.activeBorder": "#d99e4c",
     "activityBar.background": "#000000",
     "editor.background": "#000000",
     "editor.findMatchBackground": "#242424",
-    "editor.findMatchBorder": "#4c82d9aa",
+    "editor.findMatchBorder": "#d99e4caa",
     "editorGroupHeader.tabsBackground": "#000000",
     "editorGutter.background": "#000000",
     "list.activeSelectionBackground": "#353535",
-    "list.focusAndSelectionOutline": "#4c82d9",
+    "list.focusAndSelectionOutline": "#d99e4c",
     "list.hoverBackground": "#353535",
     "list.inactiveSelectionBackground": "#242424",
     "sideBar.background": "#000000",
     "statusBar.background": "#000000",
     "statusBar.focusBorder": "#000000",
     "tab.activeBackground": "#000000",
-    "tab.activeBorderTop": "#4c82d9",
+    "tab.activeBorderTop": "#d99e4c",
     "tab.inactiveBackground": "#000000",
     "titleBar.activeBackground": "#000000",
     "titleBar.inactiveBackground": "#000000"
   },
-  "workbench.colorTheme": "dPlanets Contrast Neptune",
+  "workbench.colorTheme": "dPlanets Contrast Mars",
   "workbench.iconTheme": "quill-icons-minimal",
   "workbench.layoutControl.enabled": false,
   "workbench.tree.indent": 20,

@@ -4,6 +4,8 @@
 	editor = micro
 [gpg]
 	format = ssh
+[init]
+	defaultBranch = main
 [user]
 	email = snacks64@proton.me
 	name = Andrei Zhigalkin

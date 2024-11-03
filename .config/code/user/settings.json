@@ -38,7 +38,7 @@
       {
         "scope": ["keyword.other.create.sql", "keyword.other.DML.II.sql"],
         "settings": {
-          "foreground": "#d99e4c"
+          "foreground": "#50a2e5"
         }
       }
     ]
@@ -68,27 +68,27 @@
   "window.titleBarStyle": "custom",
 
   "workbench.colorCustomizations": {
-    "activityBar.activeBorder": "#d99e4c",
+    "activityBar.activeBorder": "#50a2e5",
     "activityBar.background": "#000000",
     "editor.background": "#000000",
     "editor.findMatchBackground": "#3c3c3c",
-    "editor.findMatchBorder": "#d99e4caa",
+    "editor.findMatchBorder": "#50a2e5aa",
     "editorGroupHeader.tabsBackground": "#000000",
     "editorGutter.background": "#000000",
     "list.activeSelectionBackground": "#3c3c3c",
-    "list.focusAndSelectionOutline": "#d99e4c",
+    "list.focusAndSelectionOutline": "#50a2e5",
     "list.hoverBackground": "#3c3c3c",
     "list.inactiveSelectionBackground": "#3c3c3c",
     "sideBar.background": "#000000",
     "statusBar.background": "#000000",
     "statusBar.focusBorder": "#000000",
     "tab.activeBackground": "#000000",
-    "tab.activeBorderTop": "#d99e4c",
+    "tab.activeBorderTop": "#50a2e5",
     "tab.inactiveBackground": "#000000",
     "titleBar.activeBackground": "#000000",
     "titleBar.inactiveBackground": "#000000"
   },
-  "workbench.colorTheme": "dPlanets Dark Mars",
+  "workbench.colorTheme": "dPlanets Contrast Neptune",
   "workbench.iconTheme": "quill-icons-minimal",
   "workbench.layoutControl.enabled": false,
   "workbench.tree.indent": 20,

@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
 
 extensions="
+  anotherglitchinthematrix.monochrome
   bmalehorn.vscode-fish
   cdonohue.quill-icons
-  dp-faces.dplanets-theme
   editorconfig.editorconfig
   esbenp.prettier-vscode
   tamasfe.even-better-toml

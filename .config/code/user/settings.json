@@ -27,13 +27,23 @@
   "editor.bracketPairColorization.enabled": false,
   "editor.fontFamily": "Iosevka Extended",
   "editor.fontSize": 15,
-  "editor.fontWeight": "350",
+  "editor.fontWeight": "400",
   "editor.guides.indentation": false,
   "editor.inlayHints.enabled": "off",
   "editor.lineHeight": 22,
   "editor.minimap.enabled": false,
   "editor.overviewRulerBorder": false,
   "editor.stickyScroll.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["keyword.other.create.sql", "keyword.other.DML.II.sql"],
+        "settings": {
+          "foreground": "#50a2e5"
+        }
+      }
+    ]
+  },
 
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
@@ -53,17 +63,53 @@
   "security.workspace.trust.enabled": false,
 
   "terminal.integrated.fontSize": 15,
-  "terminal.integrated.fontWeight": "350",
+  "terminal.integrated.fontWeight": "400",
 
   "window.commandCenter": false,
   "window.title": "${activeEditorShort}${separator}${rootName}${separator}${profileName}",
   "window.titleBarStyle": "custom",
-  "window.titleSeparator": " ♡ ",
 
-  "workbench.colorTheme": "Monochrome Dark Cool Gray",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBorder": "#50a2e5",
+    "activityBar.background": "#000000",
+    "editor.background": "#000000",
+    "editor.findMatchBackground": "#424242",
+    "editor.findMatchBorder": "#50a2e5aa",
+    "editorGroupHeader.tabsBackground": "#000000",
+    "editorGutter.background": "#000000",
+    "editorHoverWidget.background": "#000000",
+    "editorWidget.background": "#000000",
+    "focusBorder": "#000000",
+    "list.activeSelectionBackground": "#424242",
+    "list.focusAndSelectionOutline": "#50a2e5",
+    "list.hoverBackground": "#424242",
+    "list.inactiveSelectionBackground": "#424242",
+    "menu.background": "#000000",
+    "menu.border": "#424242",
+    "menu.separatorBackground": "#424242",
+    "panel.background": "#000000",
+    "panel.border": "#000000",
+    "quickInput.background": "#000000",
+    "quickInputList.focusBackground": "#424242",
+    "quickInputList.focusIconForeground": "#e6e6e6",
+    "sideBar.background": "#000000",
+    "sideBar.border": "#000000",
+    "sideBarSectionHeader.background": "#000000",
+    "sideBarTitle.foreground": "#bababa",
+    "statusBar.background": "#000000",
+    "statusBar.border": "#000000",
+    "statusBar.focusBorder": "#000000",
+    "tab.activeBackground": "#000000",
+    "tab.activeBorderTop": "#50a2e5",
+    "tab.inactiveBackground": "#000000",
+    "terminal.background": "#000000",
+    "titleBar.activeBackground": "#000000",
+    "titleBar.inactiveBackground": "#000000",
+    "widget.border": "#424242"
+  },
+  "workbench.colorTheme": "dPlanets Contrast Neptune",
   "workbench.iconTheme": "quill-icons-minimal",
   "workbench.layoutControl.enabled": false,
-  "workbench.productIconTheme": "Tabler",
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 20,
   "workbench.tree.renderIndentGuides": "none"

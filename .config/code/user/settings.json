@@ -39,7 +39,7 @@
       {
         "scope": ["keyword.other.create.sql", "keyword.other.DML.II.sql"],
         "settings": {
-          "foreground": "#50a2e5"
+          "foreground": "#8bb6cc"
         }
       }
     ]
@@ -70,18 +70,18 @@
   "window.titleBarStyle": "custom",
 
   "workbench.colorCustomizations": {
-    "activityBar.activeBorder": "#50a2e5",
+    "activityBar.activeBorder": "#8bb6cc",
     "activityBar.background": "#000000",
     "editor.background": "#000000",
     "editor.findMatchBackground": "#424242",
-    "editor.findMatchBorder": "#50a2e5aa",
+    "editor.findMatchBorder": "#8bb6ccaa",
     "editorGroupHeader.tabsBackground": "#000000",
     "editorGutter.background": "#000000",
     "editorHoverWidget.background": "#000000",
     "editorWidget.background": "#000000",
     "focusBorder": "#000000",
     "list.activeSelectionBackground": "#424242",
-    "list.focusAndSelectionOutline": "#50a2e5",
+    "list.focusAndSelectionOutline": "#8bb6cc",
     "list.hoverBackground": "#424242",
     "list.inactiveSelectionBackground": "#424242",
     "menu.background": "#000000",
@@ -100,14 +100,14 @@
     "statusBar.border": "#000000",
     "statusBar.focusBorder": "#000000",
     "tab.activeBackground": "#000000",
-    "tab.activeBorderTop": "#50a2e5",
+    "tab.activeBorderTop": "#8bb6cc",
     "tab.inactiveBackground": "#000000",
     "terminal.background": "#000000",
     "titleBar.activeBackground": "#000000",
     "titleBar.inactiveBackground": "#000000",
     "widget.border": "#424242"
   },
-  "workbench.colorTheme": "dPlanets Contrast Neptune",
+  "workbench.colorTheme": "dPlanets Contrast Mercury",
   "workbench.iconTheme": "quill-icons-minimal",
   "workbench.layoutControl.enabled": false,
   "workbench.startupEditor": "none",

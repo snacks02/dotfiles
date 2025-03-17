@@ -23,6 +23,8 @@
 
   "breadcrumbs.enabled": false,
 
+  "chat.commandCenter.enabled": false,
+
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.bracketPairColorization.enabled": false,
   "editor.fontFamily": "Iosevka Extended",

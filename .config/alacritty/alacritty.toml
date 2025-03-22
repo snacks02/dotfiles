@@ -1,0 +1,50 @@
+[colors.primary]
+background = "#000000"
+foreground = "#a6a6a6"
+
+[colors.normal]
+black = "#3d3d3d"
+red = "#b44b4b"
+green = "#3c8c73"
+yellow = "#cda550"
+blue = "#4b7db9"
+magenta = "#5a6496"
+cyan = "#7db9aa"
+white = "#a0a0a0"
+
+[colors.bright]
+black = "#4d4d4d"
+red = "#cd6464"
+green = "#5ab49b"
+yellow = "#e1b964"
+blue = "#6496d2"
+magenta = "#7882be"
+cyan = "#9bd7c8"
+white = "#d2d2d2"
+
+[font]
+size = 11
+
+[font.normal]
+family = "Iosevka Term Extended"
+style = "Regular"
+
+[font.bold]
+family = "Iosevka Term Extended"
+style = "Regular"
+
+[font.italic]
+family = "Iosevka Term Extended"
+style = "Regular"
+
+[font.bold_italic]
+family = "Iosevka Term Extended"
+style = "Regular"
+
+[window.dimensions]
+columns = 130
+lines = 35
+
+[window.padding]
+x = 2
+y = 2

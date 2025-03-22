@@ -8,11 +8,11 @@ symlink() {
   ln -sf "$from" "$to"
 }
 
+symlink .config/alacritty/alacritty.toml .config/alacritty/alacritty.toml
 symlink .config/code/product.json .config/VSCodium/product.json
 symlink .config/code/user/keybindings.json .config/VSCodium/User/keybindings.json
 symlink .config/code/user/settings.json .config/VSCodium/User/settings.json
 symlink .config/fish/config.fish .config/fish/config.fish
 symlink .config/fontconfig/fonts.conf .config/fontconfig/fonts.conf
-symlink .config/foot/foot.ini .config/foot/foot.ini
 symlink .config/git/config .config/git/config
 symlink .config/lazygit/config.yml .config/lazygit/config.yml

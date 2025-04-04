@@ -36,16 +36,6 @@
   "editor.minimap.enabled": false,
   "editor.overviewRulerBorder": false,
   "editor.stickyScroll.enabled": false,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": ["keyword.other.create.sql", "keyword.other.DML.II.sql"],
-        "settings": {
-          "foreground": "#8bb6cc"
-        }
-      }
-    ]
-  },
 
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
@@ -58,32 +48,26 @@
 
   "git.openRepositoryInParentFolders": "never",
 
-  "rust-analyzer.inlayHints.chainingHints.enable": false,
-  "rust-analyzer.inlayHints.typeHints.enable": false,
-  "rust-analyzer.lens.enable": false,
-
   "security.workspace.trust.enabled": false,
 
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.fontWeight": "400",
 
   "window.commandCenter": false,
-  "window.title": "${activeEditorShort}${separator}${rootName}${separator}${profileName}",
-  "window.titleBarStyle": "custom",
 
   "workbench.colorCustomizations": {
-    "activityBar.activeBorder": "#8bb6cc",
+    "activityBar.activeBorder": "#cca166",
     "activityBar.background": "#000000",
     "editor.background": "#000000",
     "editor.findMatchBackground": "#424242",
-    "editor.findMatchBorder": "#8bb6ccaa",
+    "editor.findMatchBorder": "#cca166aa",
     "editorGroupHeader.tabsBackground": "#000000",
     "editorGutter.background": "#000000",
     "editorHoverWidget.background": "#000000",
     "editorWidget.background": "#000000",
     "focusBorder": "#000000",
     "list.activeSelectionBackground": "#424242",
-    "list.focusAndSelectionOutline": "#8bb6cc",
+    "list.focusAndSelectionOutline": "#cca166",
     "list.hoverBackground": "#424242",
     "list.inactiveSelectionBackground": "#424242",
     "menu.background": "#000000",
@@ -102,14 +86,14 @@
     "statusBar.border": "#000000",
     "statusBar.focusBorder": "#000000",
     "tab.activeBackground": "#000000",
-    "tab.activeBorderTop": "#8bb6cc",
+    "tab.activeBorderTop": "#cca166",
     "tab.inactiveBackground": "#000000",
     "terminal.background": "#000000",
     "titleBar.activeBackground": "#000000",
     "titleBar.inactiveBackground": "#000000",
     "widget.border": "#424242"
   },
-  "workbench.colorTheme": "dPlanets Contrast Mercury",
+  "workbench.colorTheme": "dPico Contrast Handy",
   "workbench.iconTheme": "quill-icons-minimal",
   "workbench.layoutControl.enabled": false,
   "workbench.startupEditor": "none",

@@ -57,6 +57,8 @@
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.fontWeight": "400",
 
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
   "update.showReleaseNotes": false,
 
   "window.commandCenter": false,

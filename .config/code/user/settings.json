@@ -74,6 +74,8 @@
     "editorHoverWidget.background": "#000000",
     "editorWidget.background": "#000000",
     "focusBorder": "#000000",
+    "inputOption.activeBorder": "#e6e6e6",
+    "inputOption.activeForeground": "#e6e6e6",
     "list.activeSelectionBackground": "#424242",
     "list.focusAndSelectionOutline": "#cca166",
     "list.hoverBackground": "#424242",

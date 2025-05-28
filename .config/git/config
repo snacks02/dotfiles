@@ -6,6 +6,8 @@
 	format = ssh
 [init]
 	defaultBranch = main
+[pager]
+	diff = delta --diff-highlight
 [user]
 	email = snacks64@proton.me
 	name = Andrei Zhigalkin

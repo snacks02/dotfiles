@@ -1,7 +1,7 @@
 [commit]
 	gpgSign = true
 [core]
-	editor = edit
+	editor = msedit
 [gpg]
 	format = ssh
 [init]

@@ -1,5 +1,6 @@
 git:
   disableForcePushing: true
+  overrideGpg: true
   paging:
     colorArg: always
     pager: delta --diff-highlight --paging=never

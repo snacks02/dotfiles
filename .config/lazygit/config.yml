@@ -8,3 +8,4 @@ git:
 gui:
   authorColors:
     "*": yellow
+  useHunkModeInStagingView: false

@@ -103,7 +103,7 @@
     "titleBar.inactiveBackground": "#000000",
     "widget.border": "#424242"
   },
-  "workbench.colorTheme": "dPico Contrast Handy",
+  "workbench.colorTheme": "dPico Contrast Serious",
   "workbench.iconTheme": "quill-icons-minimal",
   "workbench.layoutControl.enabled": false,
   "workbench.startupEditor": "none",

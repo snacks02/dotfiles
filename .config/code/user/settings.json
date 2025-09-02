@@ -27,7 +27,7 @@
 
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.bracketPairColorization.enabled": false,
-  "editor.fontFamily": "'Google Sans Code', 'Roboto Mono'",
+  "editor.fontFamily": "Geist Mono",
   "editor.fontSize": 15,
   "editor.fontWeight": "400",
   "editor.guides.indentation": false,

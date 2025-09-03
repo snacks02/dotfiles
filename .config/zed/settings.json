@@ -9,19 +9,11 @@
   "buffer_font_family": "Geist Mono",
   "buffer_font_features": { "liga": 0 },
   "buffer_font_size": 15,
-  "buffer_font_weight": 400,
   "buffer_line_height": { "custom": 1.45 },
   "format_on_save": "off",
   "git": {
-    "inline_blame": {
-      "delay_ms": 0,
-      "enabled": false,
-      "min_column": 0,
-      "padding": 7,
-      "show_commit_summary": false
-    }
+    "inline_blame": { "enabled": false }
   },
-  "icon_theme": "Zed (Default)",
   "indent_guides": { "enabled": false },
   "project_panel": {
     "auto_fold_dirs": false,

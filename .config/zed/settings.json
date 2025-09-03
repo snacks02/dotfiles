@@ -1,0 +1,42 @@
+{
+  "auto_install_extensions": {
+    "fish": true,
+    "html": true,
+    "kanso": true,
+    "toml": true,
+    "yugen": true
+  },
+  "buffer_font_family": "Geist Mono",
+  "buffer_font_features": { "liga": 0 },
+  "buffer_font_size": 15,
+  "buffer_font_weight": 400,
+  "buffer_line_height": { "custom": 1.45 },
+  "format_on_save": "off",
+  "git": {
+    "inline_blame": {
+      "delay_ms": 0,
+      "enabled": false,
+      "min_column": 0,
+      "padding": 7,
+      "show_commit_summary": false
+    }
+  },
+  "icon_theme": "Zed (Default)",
+  "indent_guides": { "enabled": false },
+  "project_panel": {
+    "auto_fold_dirs": false,
+    "indent_guides": { "show": "never" }
+  },
+  "show_whitespaces": "none",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "theme": {
+    "dark": "Kanso Ink (Borderless + No italics)",
+    "light": "Kanso Ink (Borderless + No italics)",
+    "mode": "system"
+  },
+  "ui_font_family": "Inter Display",
+  "ui_font_size": 16
+}

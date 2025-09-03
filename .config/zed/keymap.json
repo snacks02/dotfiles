@@ -1,0 +1,12 @@
+[
+  {
+    "bindings": {
+      "f7": "editor::SortLinesCaseSensitive"
+    }
+  },
+  {
+    "bindings": {
+      "f8": "project_panel::CollapseAllEntries"
+    }
+  }
+]

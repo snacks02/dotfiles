@@ -30,6 +30,7 @@
     "light": "JetBrains New Dark",
     "mode": "system"
   },
+  "title_bar": { "show_sign_in": false },
   "toolbar": {
     "breadcrumbs": false,
     "quick_actions": false

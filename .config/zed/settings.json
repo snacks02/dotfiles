@@ -2,9 +2,9 @@
   "auto_install_extensions": {
     "fish": true,
     "html": true,
+    "intellij-newui-theme": true,
     "ruby": true,
-    "toml": true,
-    "zed-legacy-themes": true
+    "toml": true
   },
   "buffer_font_family": "Geist Mono",
   "buffer_font_features": { "liga": 0 },
@@ -26,10 +26,13 @@
     "metrics": false
   },
   "theme": {
-    "dark": "Zed Legacy: Atelier Plateau Dark",
-    "light": "Zed Legacy: Atelier Plateau Light",
+    "dark": "JetBrains New Dark",
+    "light": "JetBrains New Dark",
     "mode": "system"
   },
-  "ui_font_family": "Inter Display",
-  "ui_font_size": 16
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "ui_font_family": "Inter Display"
 }

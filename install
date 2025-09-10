@@ -8,9 +8,6 @@ symlink() {
   ln -sf "$from" "$to"
 }
 
-symlink .config/code/product.json .config/VSCodium/product.json
-symlink .config/code/user/keybindings.json .config/VSCodium/User/keybindings.json
-symlink .config/code/user/settings.json .config/VSCodium/User/settings.json
 symlink .config/fish/config.fish .config/fish/config.fish
 symlink .config/fontconfig/fonts.conf .config/fontconfig/fonts.conf
 symlink .config/foot/foot.ini .config/foot/foot.ini

@@ -2,9 +2,9 @@
   "auto_install_extensions": {
     "fish": true,
     "html": true,
-    "kanso": true,
+    "ruby": true,
     "toml": true,
-    "yugen": true
+    "zed-legacy-themes": true
   },
   "buffer_font_family": "Geist Mono",
   "buffer_font_features": { "liga": 0 },
@@ -26,8 +26,8 @@
     "metrics": false
   },
   "theme": {
-    "dark": "Kanso Ink (Borderless + No italics)",
-    "light": "Kanso Ink (Borderless + No italics)",
+    "dark": "Zed Legacy: Atelier Plateau Dark",
+    "light": "Zed Legacy: Atelier Plateau Light",
     "mode": "system"
   },
   "ui_font_family": "Inter Display",

@@ -2,7 +2,7 @@
   "auto_install_extensions": {
     "fish": true,
     "html": true,
-    "intellij-newui-theme": true,
+    "one-dark-darkened": true,
     "ruby": true,
     "toml": true
   },
@@ -26,8 +26,8 @@
     "metrics": false
   },
   "theme": {
-    "dark": "JetBrains New Dark",
-    "light": "JetBrains New Dark",
+    "dark": "One Dark - Darkened",
+    "light": "One Dark - Darkened",
     "mode": "system"
   },
   "title_bar": { "show_sign_in": false },

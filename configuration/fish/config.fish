@@ -2,7 +2,6 @@ if status is-interactive
     set fish_greeting
 
     fish_add_path $HOME/.cargo/bin
-    fish_add_path $HOME/.dotfiles/.local/bin
     fish_add_path $HOME/.local/bin
 
     set -x XDG_CACHE_HOME $HOME/.cache

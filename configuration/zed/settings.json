@@ -2,6 +2,7 @@
   "auto_install_extensions": {
     "fish": true,
     "html": true,
+    "just": true,
     "one-dark-darkened": true,
     "ruby": true,
     "toml": true
@@ -10,9 +11,9 @@
   "buffer_font_features": {
     "liga": 0
   },
-  "buffer_font_size": 15,
+  "buffer_font_size": 14.8,
   "buffer_line_height": {
-    "custom": 1.45
+    "custom": 1.5
   },
   "collaboration_panel": {
     "button": false

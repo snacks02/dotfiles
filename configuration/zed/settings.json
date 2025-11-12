@@ -2,7 +2,6 @@
   "auto_install_extensions": {
     "fish": true,
     "html": true,
-    "just": true,
     "one-dark-darkened": true,
     "ruby": true,
     "toml": true

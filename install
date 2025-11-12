@@ -4,8 +4,8 @@ symlink() {
   from="$(pwd)/$1"
   to="$HOME/$2"
 
-  mkdir -p "$(dirname "$to")"
-  ln -sf "$from" "$to"
+  mkdir --parents "$(dirname "$to")"
+  ln --force --symbolic "$from" "$to"
 }
 
 symlink configuration/fish/config.fish .config/fish/config.fish

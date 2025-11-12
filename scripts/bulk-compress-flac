@@ -1,0 +1,23 @@
+#!/usr/bin/env fish
+
+set script_name (status filename | path basename)
+
+if not set --query argv[1]
+    echo "Usage: $script_name [file_names]"
+    exit 0
+end
+
+for file_name in $argv
+    switch (path extension "$file_name")
+        case ".flac"
+            flac "$file_name" \
+                --best \
+                --force \
+                --threads=(nproc)
+        case "*"
+            flac "$file_name" \
+                --best \
+                --delete-input-file \
+                --threads=(nproc)
+    end
+end

@@ -1,0 +1,18 @@
+#!/usr/bin/env fish
+
+set script_name (status filename | path basename)
+
+if not set --query argv[1]
+    echo "Usage: $script_name [file_names]"
+    exit 0
+end
+
+for file_name in $argv
+    cjxl \
+        --effort 10 \
+        --lossless_jpeg 1 \
+        --quality 100 \
+        "$file_name" \
+        (path change-extension ".jxl" "$file_name") \
+        && rm "$file_name"
+end

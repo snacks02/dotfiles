@@ -1,0 +1,16 @@
+#!/usr/bin/env fish
+
+set script_name (status filename | path basename)
+
+if not set --query argv[1]
+    echo "Usage: $script_name [path]"
+    exit 0
+end
+
+exiftool \
+    -all= \
+    -api largefilesupport=1 \
+    -overwrite_original \
+    -progress \
+    -recurse \
+    (set --query argv[1]; and echo "$argv[1]"; or echo .)

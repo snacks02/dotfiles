@@ -1,0 +1,8 @@
+#!/usr/bin/env fish
+
+set containers (docker ps --all --quiet)
+if test -n "$containers"
+    docker stop $containers
+end
+
+docker system prune --all --force && docker volume prune --all --force

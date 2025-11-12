@@ -13,4 +13,4 @@ exiftool \
     -overwrite_original \
     -progress \
     -recurse \
-    (set --query argv[1]; and echo "$argv[1]"; or echo .)
+    "$argv[1]"

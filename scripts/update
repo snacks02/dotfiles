@@ -1,0 +1,3 @@
+#!/usr/bin/env fish
+
+paru && paru -c && paru -Scc && flatpak update && flatpak uninstall --unused

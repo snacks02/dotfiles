@@ -1,9 +1,7 @@
 #!/usr/bin/env fish
 
-set script_name (status filename | path basename)
-
 if not set --query argv[1]
-    echo "Usage: $script_name [path]"
+    echo "Usage: $(status basename) [path]"
     exit 0
 end
 

@@ -13,4 +13,5 @@ if status is-interactive
     set --export CLAUDE_CONFIG_DIR "$XDG_DATA_HOME/claude"
     set --export COMPOSE_BAKE true
     set --export DOCKER_CONFIG "$XDG_CONFIG_HOME/docker"
+    set --export SSH_AUTH_SOCK "$HOME/.var/app/com.bitwarden.desktop/data/.bitwarden-ssh-agent.sock"
 end

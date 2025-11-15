@@ -2,6 +2,8 @@
 	gpgSign = true
 [core]
 	editor = msedit
+[gpg "ssh"]
+	defaultKeyCommand = ssh-add -L
 [gpg]
 	format = ssh
 [init]
@@ -11,4 +13,3 @@
 [user]
 	email = snacks64@proton.me
 	name = Andrei Zhigalkin
-	signingKey = /home/snacks/.ssh/id_ed25519.pub

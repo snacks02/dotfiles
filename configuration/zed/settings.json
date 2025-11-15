@@ -1,16 +1,17 @@
 {
   "auto_install_extensions": {
+    "dockerfile": true,
     "fish": true,
     "html": true,
     "one-dark-darkened": true,
     "ruby": true,
     "toml": true
   },
-  "buffer_font_family": "Geist Mono",
+  "buffer_font_family": "Sans Code",
   "buffer_font_features": {
     "liga": 0
   },
-  "buffer_font_size": 14.8,
+  "buffer_font_size": 14.6,
   "buffer_line_height": {
     "custom": 1.5
   },

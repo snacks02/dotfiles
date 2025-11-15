@@ -1,3 +1,8 @@
 #!/usr/bin/env fish
 
-paru && paru -c && paru -Scc && flatpak update && flatpak uninstall --unused
+paru
+paru --clean --noconfirm
+paru --sync --clean --clean --noconfirm
+
+flatpak update
+flatpak uninstall --assumeyes --unused

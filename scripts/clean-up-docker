@@ -1,5 +1,7 @@
 #!/usr/bin/env fish
 
+sudo systemctl restart docker
+
 set containers (docker ps --all --quiet)
 if test -n "$containers"
     docker stop "$containers"

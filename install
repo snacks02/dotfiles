@@ -9,6 +9,7 @@ symlink() {
 }
 
 symlink configuration/fish/config.fish .config/fish/config.fish
+symlink configuration/fontconfig/fonts.conf .config/fontconfig/fonts.conf
 symlink configuration/foot/foot.ini .config/foot/foot.ini
 symlink configuration/git/config .config/git/config
 symlink configuration/lazygit/config.yml .config/lazygit/config.yml

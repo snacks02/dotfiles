@@ -1,8 +1,8 @@
 #!/usr/bin/env fish
 
-sudo pacman --sync --refresh --sysupgrade
-sudo pacman --sync --clean --noconfirm
-sudo pacman --sync --clean --clean --noconfirm
+paru
+paru --clean --noconfirm
+paru --sync --clean --clean --noconfirm
 
 flatpak update
 flatpak uninstall --assumeyes --unused

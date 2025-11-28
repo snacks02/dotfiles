@@ -1,6 +1,11 @@
 [
   {
     "bindings": {
+      "ctrl-;": null
+    }
+  },
+  {
+    "bindings": {
       "f7": "editor::SortLinesCaseSensitive"
     }
   }

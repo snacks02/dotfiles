@@ -3,6 +3,3 @@
 paru
 paru --clean --noconfirm
 paru --sync --clean --clean --noconfirm
-
-flatpak update
-flatpak uninstall --assumeyes --unused

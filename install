@@ -8,10 +8,11 @@ symlink() {
   ln --force --symbolic "$from" "$to"
 }
 
+symlink configuration/environment.d/environment.conf .config/environment.d/environment.conf
 symlink configuration/fish/config.fish .config/fish/config.fish
 symlink configuration/fontconfig/fonts.conf .config/fontconfig/fonts.conf
 symlink configuration/foot/foot.ini .config/foot/foot.ini
 symlink configuration/git/config .config/git/config
 symlink configuration/lazygit/config.yml .config/lazygit/config.yml
-symlink configuration/zed/keymap.json .var/app/dev.zed.Zed/config/zed/keymap.json
-symlink configuration/zed/settings.json .var/app/dev.zed.Zed/config/zed/settings.json
+symlink configuration/zed/keymap.json .config/zed/keymap.json
+symlink configuration/zed/settings.json .config/zed/settings.json

@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 
 if not set --query argv[1]
-    echo "Usage: $(status basename) [file_names]"
+    echo "Usage: $(status basename) [file_paths]"
     exit 0
 end
 

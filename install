@@ -14,5 +14,6 @@ symlink configuration/fontconfig/fonts.conf .config/fontconfig/fonts.conf
 symlink configuration/foot/foot.ini .config/foot/foot.ini
 symlink configuration/git/config .config/git/config
 symlink configuration/lazygit/config.yml .config/lazygit/config.yml
+symlink configuration/npm/npmrc .config/npm/npmrc
 symlink configuration/zed/keymap.json .config/zed/keymap.json
 symlink configuration/zed/settings.json .config/zed/settings.json

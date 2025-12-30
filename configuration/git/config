@@ -9,7 +9,7 @@
 [init]
 	defaultBranch = main
 [pager]
-	diff = delta --diff-highlight
+	diff = /usr/share/git/diff-highlight/diff-highlight
 [user]
 	email = snacks64@proton.me
 	name = Andrei Zhigalkin

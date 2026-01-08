@@ -4,4 +4,5 @@ if status is-interactive
     fish_add_path "$CARGO_HOME/bin"
     fish_add_path "$GOPATH/bin/"
     fish_add_path "$HOME/.dotfiles/scripts"
+    fish_add_path "$HOME/.local/bin"
 end

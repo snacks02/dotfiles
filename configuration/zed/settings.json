@@ -48,6 +48,9 @@
       "show": "never"
     }
   },
+  "session": {
+    "trust_all_worktrees": true
+  },
   "show_whitespaces": "none",
   "tab_bar": {
     "show_nav_history_buttons": false

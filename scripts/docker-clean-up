@@ -2,7 +2,7 @@
 
 sudo systemctl restart docker
 
-set containers (docker ps --all --quiet)
+set containers (docker ps --quiet)
 if test -n "$containers"
     docker stop "$containers"
 end

@@ -1,4 +1,9 @@
 {
+  "agent_servers": {
+    "claude": {
+      "default_model": "sonnet",
+    },
+  },
   "auto_install_extensions": {
     "dockerfile": true,
     "fish": true,

@@ -1,8 +1,9 @@
 {
   "agent_servers": {
-    "claude": {
+    "claude-acp": {
       "default_model": "sonnet",
-    },
+      "type": "registry"
+    }
   },
   "auto_install_extensions": {
     "dockerfile": true,

@@ -3,7 +3,7 @@ git:
   overrideGpg: true
   pagers:
     - colorArg: always
-      pager: /usr/share/git/diff-highlight/diff-highlight
+      pager: /usr/share/git-core/contrib/diff-highlight
 gui:
   authorColors:
     "*": yellow

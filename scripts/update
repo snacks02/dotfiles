@@ -1,6 +1,5 @@
 #!/usr/bin/env fish
 
-rpm-ostree update
-
-flatpak update --assumeyes
-flatpak uninstall --assumeyes --unused
+paru
+paru --clean --noconfirm
+paru --sync --clean --clean --noconfirm

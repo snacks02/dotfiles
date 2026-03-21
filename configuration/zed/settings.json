@@ -2,8 +2,8 @@
   "agent_servers": {
     "claude-acp": {
       "default_model": "sonnet",
-      "type": "registry"
-    }
+      "type": "registry",
+    },
   },
   "auto_install_extensions": {
     "dockerfile": true,
@@ -15,7 +15,8 @@
   },
   "buffer_font_family": "Geist Mono",
   "buffer_font_features": {
-    "liga": 0,
+    "calt": false,
+    "liga": false,
   },
   "buffer_font_size": 14.6,
   "buffer_line_height": {

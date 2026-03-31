@@ -8,6 +8,7 @@ symlink() {
   ln --force --symbolic "$from" "$to"
 }
 
+symlink configuration/brave-flags.conf .config/brave-flags.conf
 symlink configuration/environment.d/environment.conf .config/environment.d/environment.conf
 symlink configuration/fish/config.fish .config/fish/config.fish
 symlink configuration/fontconfig/fonts.conf .config/fontconfig/fonts.conf

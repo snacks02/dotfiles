@@ -2,8 +2,7 @@ git:
   disableForcePushing: true
   overrideGpg: true
   pagers:
-    - colorArg: always
-      pager: /usr/share/git/diff-highlight/diff-highlight
+    - pager: /home/linuxbrew/.linuxbrew/share/git-core/contrib/diff-highlight/diff-highlight
 gui:
   authorColors:
     "*": yellow

@@ -3,6 +3,3 @@
 yay
 yay --sync --clean --clean --noconfirm
 yay --yay --clean --noconfirm
-
-flatpak update --assumeyes
-flatpak uninstall --assumeyes --unused

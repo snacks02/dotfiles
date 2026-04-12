@@ -6,16 +6,11 @@ if not set --query argv[1]
 end
 
 for file_name in $argv
-    switch (path extension "$file_name")
-        case ".flac"
-            flac "$file_name" \
-                --best \
-                --force \
-                --threads=(nproc)
-        case "*"
-            flac "$file_name" \
-                --best \
-                --delete-input-file \
-                --threads=(nproc)
+    set flags --best --threads=(nproc)
+    if test (path extension "$file_name") = .flac
+        set --append flags --force
+    else
+        set --append flags --delete-input-file
     end
+    flac "$file_name" $flags
 end

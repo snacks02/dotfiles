@@ -7,4 +7,4 @@ if test -n "$containers"
     docker stop "$containers"
 end
 
-docker system prune --all --force && docker volume prune --all --force
+docker system prune --all --force --volumes

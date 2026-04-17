@@ -1,6 +1,5 @@
 #!/usr/bin/env fish
 
-aura --sync --sysupgrade
-aura --aursync --sysupgrade
-aura --noconfirm --cache --clean 0
-aura --noconfirm --sync --clean --clean
+paru
+paru --clean --noconfirm
+paru --sync --clean --clean --noconfirm

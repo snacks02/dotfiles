@@ -27,23 +27,23 @@ size = 11.0
 
 [font.bold]
 family = "Geist Mono"
-style = "Regular"
+style  = "Regular"
 
 [font.bold_italic]
 family = "Geist Mono"
-style = "Regular"
+style  = "Regular"
 
 [font.italic]
 family = "Geist Mono"
-style = "Regular"
+style  = "Regular"
 
 [font.normal]
 family = "Geist Mono"
-style = "Regular"
+style  = "Regular"
 
 [window.dimensions]
 columns = 130
-lines = 35
+lines   = 35
 
 [window.padding]
 x = 2

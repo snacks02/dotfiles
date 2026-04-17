@@ -1,5 +1,5 @@
 #!/usr/bin/env fish
 
-paru
+paru --sync --noconfirm --refresh --sysupgrade
 paru --clean --noconfirm
 paru --sync --clean --clean --noconfirm

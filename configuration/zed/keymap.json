@@ -1,12 +1,12 @@
 [
   {
     "bindings": {
-      "ctrl-;": null
-    }
+      "ctrl-;": null,
+    },
   },
   {
     "bindings": {
-      "f7": "editor::SortLinesCaseSensitive"
-    }
-  }
+      "f7": "editor::SortLinesCaseSensitive",
+    },
+  },
 ]

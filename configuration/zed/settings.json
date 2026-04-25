@@ -5,6 +5,9 @@
   },
   "agent_servers": {
     "claude-acp": {
+      "default_config_options": {
+        "effort": "medium",
+      },
       "default_model": "sonnet",
       "type": "registry",
     },
@@ -25,6 +28,7 @@
   "buffer_line_height": {
     "custom": 1.5,
   },
+  "cli_default_open_behavior": "new_window",
   "collaboration_panel": {
     "button": false,
   },

@@ -7,10 +7,10 @@ end
 
 for file_name in $argv
     set flags --best --threads=(nproc)
-    if test (path extension "$file_name") = .flac
+    if test (path extension $file_name) = .flac
         set --append flags --force
     else
         set --append flags --delete-input-file
     end
-    flac "$file_name" $flags
+    flac $file_name $flags
 end

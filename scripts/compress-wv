@@ -8,8 +8,8 @@ end
 for file_name in $argv
     wavpack \
         -hh \
-        -o (path change-extension ".wv" "$file_name") \
+        -o (path change-extension .wv $file_name) \
         -x6 \
-        "$file_name" \
-        && rm "$file_name"
+        $file_name \
+        && rm $file_name
 end

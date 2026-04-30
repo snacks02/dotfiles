@@ -1,12 +1,12 @@
-#!/usr/bin/env sh
+#!/usr/bin/env fish
 
-symlink() {
-  from="$(pwd)/$1"
-  to="$HOME/$2"
+function symlink
+    set from (pwd)/$argv[1]
+    set to $HOME/$argv[2]
 
-  mkdir --parents "$(dirname "$to")"
-  ln --force --symbolic "$from" "$to"
-}
+    mkdir --parents (dirname $to)
+    ln --force --symbolic $from $to
+end
 
 symlink configuration/alacritty/alacritty.toml .config/alacritty/alacritty.toml
 symlink configuration/brave-flags.conf .config/brave-flags.conf

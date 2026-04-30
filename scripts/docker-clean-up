@@ -3,8 +3,8 @@
 sudo systemctl restart docker
 
 set containers (docker ps --quiet)
-if test -n "$containers"
-    docker stop "$containers"
+if set --query containers[1]
+    docker stop $containers
 end
 
 docker system prune --all --force --volumes

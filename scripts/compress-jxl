@@ -10,7 +10,7 @@ for file_name in $argv
         --effort 10 \
         --lossless_jpeg 1 \
         --quality 100 \
-        "$file_name" \
-        (path change-extension ".jxl" "$file_name") \
-        && rm "$file_name"
+        $file_name \
+        (path change-extension .jxl $file_name) \
+        && rm $file_name
 end

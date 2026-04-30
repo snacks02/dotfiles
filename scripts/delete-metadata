@@ -11,4 +11,4 @@ exiftool \
     -overwrite_original \
     -progress \
     -recurse \
-    "$argv[1]"
+    $argv[1]

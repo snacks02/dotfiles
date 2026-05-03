@@ -6,7 +6,7 @@
   "agent_servers": {
     "claude-acp": {
       "default_config_options": {
-        "effort": "medium",
+        "effort": "high",
       },
       "default_model": "sonnet",
       "type": "registry",

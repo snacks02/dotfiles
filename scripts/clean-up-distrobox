@@ -1,9 +1,0 @@
-#!/usr/bin/env fish
-
-set images (docker ps --all --filter label=manager=distrobox --format "{{.Image}}" | sort --unique)
-
-distrobox rm --all --force
-
-if set --query images[1]
-    docker rmi $images
-end

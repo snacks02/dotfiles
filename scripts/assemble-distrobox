@@ -1,4 +1,0 @@
-#!/usr/bin/env fish
-
-distrobox assemble create --file (status dirname)/../assemblies/distrobox.ini
-distrobox enter --no-tty -- sudo ln --force --symbolic /usr/bin/distrobox-host-exec /usr/local/bin/docker

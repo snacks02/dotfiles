@@ -1,7 +1,10 @@
 #!/usr/bin/env fish
 
-for container in (docker ps --quiet --filter label=manager!=distrobox)
-    docker stop $container
+systemctl restart docker
+
+set containers (docker ps --quiet)
+if set --query containers[1]
+    docker stop $containers
 end
 
-docker system prune --all --filter label=manager!=distrobox --force --volumes
+docker system prune --all --force --volumes

@@ -1,0 +1,4 @@
+#!/usr/bin/env fish
+
+distrobox assemble create --file (status dirname)/../assemblies/distrobox.ini
+distrobox enter --no-tty -- true

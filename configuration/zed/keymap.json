@@ -1,5 +1,13 @@
 [
   {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl--": null,
+      "ctrl-=": null,
+      "ctrl-p": null,
+    },
+  },
+  {
     "bindings": {
       "ctrl-;": null,
       "f7": "editor::SortLinesCaseSensitive",

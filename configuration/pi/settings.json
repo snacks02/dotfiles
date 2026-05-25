@@ -1,0 +1,8 @@
+{
+  "defaultModel": "kimi-k2.6",
+  "defaultProvider": "opencode-go",
+  "defaultThinkingLevel": "high",
+  "enableInstallTelemetry": false,
+  "lastChangelogVersion": "0.78.0",
+  "packages": ["npm:pi-lens", "npm:pi-permission-system"]
+}

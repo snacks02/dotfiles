@@ -3,15 +3,6 @@
     "dock": "right",
     "sidebar_side": "right",
   },
-  "agent_servers": {
-    "claude-acp": {
-      "default_config_options": {
-        "model": "default",
-        "effort": "high",
-      },
-      "type": "registry",
-    },
-  },
   "auto_install_extensions": {
     "dockerfile": true,
     "fish": true,
@@ -75,6 +66,7 @@
   },
   "terminal": {
     "button": false,
+    "font_size": 13,
   },
   "theme": {
     "dark": "One Dark - Darkened",

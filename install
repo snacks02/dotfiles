@@ -14,9 +14,12 @@ symlink configuration/environment.d/environment.conf .config/environment.d/envir
 symlink configuration/fish/config.fish .config/fish/config.fish
 symlink configuration/fontconfig/fonts.conf .config/fontconfig/fonts.conf
 symlink configuration/git/config .config/git/config
+symlink configuration/konsolerc .config/konsolerc
 symlink configuration/lazygit/config.yml .config/lazygit/config.yml
 symlink configuration/npm/npmrc .config/npm/npmrc
 symlink configuration/opencode/opencode.jsonc .config/opencode/opencode.jsonc
 symlink configuration/opencode/tui.jsonc .config/opencode/tui.jsonc
 symlink configuration/zed/keymap.json .config/zed/keymap.json
 symlink configuration/zed/settings.json .config/zed/settings.json
+symlink data/konsole/Default.colorscheme .local/share/konsole/Default.colorscheme
+symlink data/konsole/Default.profile .local/share/konsole/Default.profile

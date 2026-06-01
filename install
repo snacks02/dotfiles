@@ -13,6 +13,7 @@ symlink configuration/brave-flags.conf .config/brave-flags.conf
 symlink configuration/environment.d/environment.conf .config/environment.d/environment.conf
 symlink configuration/fish/config.fish .config/fish/config.fish
 symlink configuration/fontconfig/fonts.conf .config/fontconfig/fonts.conf
+symlink configuration/ghostty/config .config/ghostty/config
 symlink configuration/git/config .config/git/config
 symlink configuration/konsolerc .config/konsolerc
 symlink configuration/lazygit/config.yml .config/lazygit/config.yml

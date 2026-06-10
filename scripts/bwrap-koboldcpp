@@ -1,0 +1,23 @@
+#!/usr/bin/env fish
+
+bwrap \
+    --clearenv \
+    --dev-bind-try /dev/nvidia-modeset /dev/nvidia-modeset \
+    --dev-bind-try /dev/nvidia0 /dev/nvidia0 \
+    --dev-bind-try /dev/nvidiactl /dev/nvidiactl \
+    --ro-bind $HOME/Desktop $HOME/Desktop \
+    --ro-bind /lib64 /lib64 \
+    --ro-bind /usr /usr \
+    --ro-bind-try $XDG_RUNTIME_DIR $XDG_RUNTIME_DIR \
+    --ro-bind-try /sys /sys \
+    --setenv DISPLAY $DISPLAY \
+    --setenv HOME $HOME \
+    --setenv PATH /bin:/usr/bin:$HOME/.local/bin \
+    --setenv XAUTHORITY $XAUTHORITY \
+    --setenv XDG_RUNTIME_DIR $XDG_RUNTIME_DIR \
+    --share-net \
+    --tmpfs /tmp \
+    --unshare-ipc \
+    --unshare-pid \
+    --unshare-uts \
+    -- koboldcpp $argv

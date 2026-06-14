@@ -1,7 +1,5 @@
 [commit]
 	gpgSign = true
-[core]
-	editor = msedit
 [gpg "ssh"]
 	defaultKeyCommand = ssh-add -L
 [gpg]

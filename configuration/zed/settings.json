@@ -9,6 +9,7 @@
     "html": true,
     "one-dark-darkened": true,
     "ruby": true,
+    "toml": true,
   },
   "buffer_font_family": "Geist Mono",
   "buffer_font_features": {
@@ -28,6 +29,9 @@
   },
   "diagnostics": {
     "button": false,
+  },
+  "edit_predictions": {
+    "provider": "none",
   },
   "format_on_save": "off",
   "git": {

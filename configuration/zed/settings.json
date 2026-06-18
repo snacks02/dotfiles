@@ -72,10 +72,7 @@
     "button": false,
     "font_size": 13.4,
   },
-  "theme": {
-    "dark": "One Dark - Darkened",
-    "light": "One Dark - Darkened",
-  },
+  "theme": "One Dark - Darkened",
   "title_bar": {
     "show_branch_name": false,
     "show_onboarding_banner": false,

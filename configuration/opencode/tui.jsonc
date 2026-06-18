@@ -4,5 +4,5 @@
   "keybinds": {
     "input_undo": "ctrl+z",
     "terminal_suspend": "none",
-  }
+  },
 }

@@ -6,18 +6,17 @@ bwrap \
     --dev-bind-try /dev/nvidia0 /dev/nvidia0 \
     --dev-bind-try /dev/nvidiactl /dev/nvidiactl \
     --ro-bind $HOME/Desktop $HOME/Desktop \
+    --ro-bind $XDG_RUNTIME_DIR $XDG_RUNTIME_DIR \
     --ro-bind /lib64 /lib64 \
+    --ro-bind /sys /sys \
     --ro-bind /usr /usr \
-    --ro-bind-try $XDG_RUNTIME_DIR $XDG_RUNTIME_DIR \
-    --ro-bind-try /sys /sys \
     --setenv DISPLAY $DISPLAY \
-    --setenv HOME $HOME \
-    --setenv PATH /bin:/usr/bin:$HOME/.local/bin \
+    --setenv PATH /usr/bin \
     --setenv XAUTHORITY $XAUTHORITY \
-    --setenv XDG_RUNTIME_DIR $XDG_RUNTIME_DIR \
-    --share-net \
     --tmpfs /tmp \
+    --unshare-cgroup \
     --unshare-ipc \
     --unshare-pid \
+    --unshare-user \
     --unshare-uts \
     -- koboldcpp $argv

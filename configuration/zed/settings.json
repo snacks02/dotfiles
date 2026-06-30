@@ -7,7 +7,6 @@
     "dockerfile": true,
     "fish": true,
     "html": true,
-    "one-dark-darkened": true,
     "ruby": true,
     "toml": true,
   },
@@ -72,7 +71,6 @@
     "button": false,
     "font_size": 13.4,
   },
-  "theme": "One Dark - Darkened",
   "title_bar": {
     "show_branch_name": false,
     "show_onboarding_banner": false,

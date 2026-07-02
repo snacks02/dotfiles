@@ -5,5 +5,6 @@ if status is-interactive
     fish_add_path "$GOPATH/bin"
     fish_add_path "$HOME/.dotfiles/scripts"
     fish_add_path "$HOME/.local/bin"
+    fish_add_path "$HOME/Applications"
     fish_add_path "$XDG_DATA_HOME/npm/bin"
 end

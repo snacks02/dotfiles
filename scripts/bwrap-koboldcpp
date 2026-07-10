@@ -5,13 +5,14 @@ bwrap \
     --dev-bind-try /dev/nvidia-modeset /dev/nvidia-modeset \
     --dev-bind-try /dev/nvidia0 /dev/nvidia0 \
     --dev-bind-try /dev/nvidiactl /dev/nvidiactl \
+    --ro-bind $HOME/.local/bin $HOME/.local/bin \
     --ro-bind $HOME/Desktop $HOME/Desktop \
     --ro-bind $XDG_RUNTIME_DIR $XDG_RUNTIME_DIR \
     --ro-bind /lib64 /lib64 \
     --ro-bind /sys /sys \
     --ro-bind /usr /usr \
     --setenv DISPLAY $DISPLAY \
-    --setenv PATH /usr/bin \
+    --setenv PATH $HOME/.local/bin:/usr/bin \
     --setenv XAUTHORITY $XAUTHORITY \
     --tmpfs /tmp \
     --unshare-cgroup \

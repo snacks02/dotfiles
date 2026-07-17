@@ -10,7 +10,7 @@
     "ruby": true,
     "toml": true,
   },
-  "buffer_font_family": "Geist Mono",
+  "buffer_font_family": "Lilex",
   "buffer_font_features": {
     "calt": false,
     "liga": false,

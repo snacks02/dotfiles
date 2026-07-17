@@ -23,16 +23,13 @@ background = "#000000"
 foreground = "#a6a6a6"
 
 [font.bold]
-style  = "Regular"
+style = "Regular"
 
 [font.bold_italic]
-style  = "Regular"
+style = "Regular"
 
 [font.italic]
-style  = "Regular"
-
-[font.normal]
-style  = "Regular"
+style = "Regular"
 
 [font]
 size = 11.0

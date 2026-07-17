@@ -4,6 +4,7 @@
     "bindings": {
       "ctrl--": null,
       "ctrl-=": null,
+      "ctrl-f": null,
       "ctrl-p": null,
       "ctrl-t": null,
     },

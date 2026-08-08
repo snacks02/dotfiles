@@ -1,8 +1,8 @@
 git:
+  diffRenderers:
+    - command: /usr/share/git/diff-highlight/diff-highlight
   disableForcePushing: true
   overrideGpg: true
-  pagers:
-    - pager: /usr/share/git/diff-highlight/diff-highlight
 gui:
   authorColors:
     "*": yellow

@@ -1,4 +1,6 @@
 #!/usr/bin/env fish
 
-shelly upgrade all --no-confirm
-shelly purify standard --cache 0 --no-confirm --orphans
+rpm-ostree update
+
+flatpak update --assumeyes
+flatpak uninstall --assumeyes --unused

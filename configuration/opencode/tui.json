@@ -3,6 +3,6 @@
   "diff_style": "stacked",
   "keybinds": {
     "input_undo": "ctrl+z",
-    "terminal_suspend": "none",
-  },
+    "terminal_suspend": "none"
+  }
 }

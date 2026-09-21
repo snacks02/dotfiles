@@ -1,0 +1,13 @@
+{
+  "$schema": "https://opencode.ai/v2/cli.json",
+  "animations": true,
+  "mini": {
+    "thinking": "show"
+  },
+  "session": {
+    "thinking": "show"
+  },
+  "theme": {
+    "name": "system"
+  }
+}

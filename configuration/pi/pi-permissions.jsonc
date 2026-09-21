@@ -1,0 +1,24 @@
+{
+  "defaultPolicy": {
+    "tools": "ask",
+    "bash": "ask",
+    "mcp": "ask",
+    "skills": "ask",
+    "special": "ask",
+  },
+  "tools": {
+    "effective_config": "allow",
+    "glob": "allow",
+    "grep": "allow",
+    "lens_diagnostic_mark": "allow",
+    "lens_diagnostics": "allow",
+    "lsp_navigation": "allow",
+    "module_report": "allow",
+    "project_report": "allow",
+    "read": "allow",
+    "read_enclosing": "allow",
+    "read_symbol": "allow",
+    "symbol_search": "allow",
+    "todowrite": "allow",
+  },
+}

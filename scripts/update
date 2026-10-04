@@ -3,4 +3,4 @@
 rpm-ostree update
 
 flatpak update --assumeyes
-flatpak uninstall --assumeyes --unused
+flatpak uninstall --assumeyes --delete-data --unused

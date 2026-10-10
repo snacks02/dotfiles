@@ -4,7 +4,8 @@ git:
   disableForcePushing: true
   overrideGpg: true
 gui:
-  authorColors:
-    "*": yellow
   showCommandLog: false
-  useHunkModeInStagingView: false
+  theme:
+    authorColors:
+      "*": yellow
+  useHunkModeInDiffView: false

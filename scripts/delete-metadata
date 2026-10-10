@@ -6,7 +6,7 @@ if not set --query argv[1]
 end
 
 exiftool \
-    -all= \
+    -all:all= \
     -api largefilesupport=1 \
     -overwrite_original \
     -progress \

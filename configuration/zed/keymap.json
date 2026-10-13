@@ -1,5 +1,12 @@
 [
   {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-down": "editor::AddSelectionBelow",
+      "ctrl-alt-up": "editor::AddSelectionAbove",
+    }
+  },
+  {
     "context": "Terminal",
     "bindings": {
       "ctrl--": null,

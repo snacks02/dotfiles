@@ -1,6 +1,6 @@
 git:
   diffRenderers:
-    - command: /usr/share/git-core/contrib/diff-highlight
+    - command: /usr/share/git/diff-highlight/diff-highlight
   disableForcePushing: true
   overrideGpg: true
 gui:

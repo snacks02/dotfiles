@@ -1,5 +1,10 @@
 #!/usr/bin/env fish
 
-paru
-paru --clean --noconfirm
-paru --sync --clean --clean --noconfirm
+pikaur --sync --refresh --sysupgrade
+
+set --local orphans (pacman --query --deps --quiet --unrequired)
+if test -n "$orphans"
+    sudo pacman --remove --noconfirm $orphans
+end
+
+pikaur --sync --clean --clean --noconfirm

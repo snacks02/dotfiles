@@ -1,8 +1,8 @@
 #!/usr/bin/env fish
 
 if not set --query argv[1]
-    echo "Usage: $(status basename) [path]"
-    exit 0
+    echo "Usage: $(status basename) <directories or files>"
+    exit 1
 end
 
 exiftool \
@@ -11,4 +11,4 @@ exiftool \
     -overwrite_original \
     -progress \
     -recurse \
-    $argv[1]
+    $argv

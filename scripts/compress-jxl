@@ -1,16 +1,21 @@
 #!/usr/bin/env fish
 
 if not set --query argv[1]
-    echo "Usage: $(status basename) [file_paths]"
-    exit 0
+    echo "Usage: $(status basename) <files>"
+    exit 1
 end
 
-for file_name in $argv
+for target in $argv
+    if not path is --type file $target
+        echo "Warning: `$target` is not a file."
+        continue
+    end
+
     cjxl \
         --effort 10 \
         --lossless_jpeg 1 \
         --quality 100 \
-        $file_name \
-        (path change-extension .jxl $file_name) \
-        && rm $file_name
+        $target \
+        (path change-extension .jxl $target) \
+        && rm $target
 end

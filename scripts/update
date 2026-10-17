@@ -1,10 +1,19 @@
 #!/usr/bin/env fish
 
-pikaur --sync --refresh --sysupgrade
+echo "🌟 Updating packages..."
+sudo pacman --sync --refresh --sysupgrade
 
+echo "🌟 Updating AUR packages..."
+pikaur --sync --aur --refresh --sysupgrade
+
+echo "🌟 Removing orphan packages..."
 set --local orphans (pacman --query --deps --quiet --unrequired)
 if test -n "$orphans"
     sudo pacman --remove --noconfirm $orphans
 end
 
-pikaur --sync --clean --clean --noconfirm
+echo "🌟 Cleaning up cache..."
+sudo pacman --sync --clean --clean --noconfirm
+
+echo "🌟 Cleaning up AUR cache..."
+pikaur --sync --aur --clean --clean --noconfirm

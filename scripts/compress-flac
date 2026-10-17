@@ -1,16 +1,21 @@
 #!/usr/bin/env fish
 
 if not set --query argv[1]
-    echo "Usage: $(status basename) [file_paths]"
-    exit 0
+    echo "Usage: $(status basename) <files>"
+    exit 1
 end
 
-for file_name in $argv
+for target in $argv
+    if not path is --type file $target
+        echo "Warning: `$target` is not a file."
+        continue
+    end
+
     set flags --best --threads=(nproc)
-    if test (path extension $file_name) = .flac
+    if test (path extension $target) = .flac
         set --append flags --force
     else
         set --append flags --delete-input-file
     end
-    flac $file_name $flags
+    flac $target $flags
 end

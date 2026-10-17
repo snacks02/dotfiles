@@ -1,15 +1,20 @@
 #!/usr/bin/env fish
 
 if not set --query argv[1]
-    echo "Usage: $(status basename) [file_paths]"
-    exit 0
+    echo "Usage: $(status basename) <files>"
+    exit 1
 end
 
-for file_name in $argv
+for target in $argv
+    if not path is --type file $target
+        echo "Warning: `$target` is not a file."
+        continue
+    end
+
     wavpack \
         -hh \
-        -o (path change-extension .wv $file_name) \
+        -o (path change-extension .wv $target) \
         -x6 \
-        $file_name \
-        && rm $file_name
+        $target \
+        && rm $target
 end

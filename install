@@ -16,6 +16,9 @@ symlink configuration/fontconfig/fonts.conf .config/fontconfig/fonts.conf
 symlink configuration/git/config .config/git/config
 symlink configuration/lazygit/config.yml .config/lazygit/config.yml
 symlink configuration/npm/npmrc .config/npm/npmrc
+symlink configuration/opencode/cli.json .config/opencode/cli.json
+symlink configuration/opencode/opencode.json .config/opencode/opencode.json
+symlink configuration/opencode/tui.json .config/opencode/tui.json
 symlink configuration/pi-lens/config.json .config/pi-lens/config.json
 symlink configuration/pi/keybindings.json .local/share/pi/keybindings.json
 symlink configuration/pi/pi-permissions.jsonc .local/share/pi/pi-permissions.jsonc

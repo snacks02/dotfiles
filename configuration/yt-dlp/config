@@ -1,0 +1,3 @@
+--merge-output-format mkv
+--no-windows-filenames
+--output "[%(timestamp>%Y.%m.%d %H:%M)s] %(title)s [%(id)s].%(ext)s"

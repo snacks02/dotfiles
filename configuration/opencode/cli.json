@@ -4,6 +4,9 @@
   "mini": {
     "thinking": "show"
   },
+  "prompt": {
+    "paste": "full"
+  },
   "session": {
     "thinking": "show"
   },

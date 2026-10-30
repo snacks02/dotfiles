@@ -4,28 +4,28 @@
   "permissions": [
     {
       "action": "*",
-      "resource": "*",
-      "effect": "ask"
+      "effect": "ask",
+      "resource": "*"
     },
     {
       "action": "glob",
-      "resource": "*",
-      "effect": "allow"
+      "effect": "allow",
+      "resource": "*"
     },
     {
       "action": "grep",
-      "resource": "*",
-      "effect": "allow"
+      "effect": "allow",
+      "resource": "*"
     },
     {
       "action": "question",
-      "resource": "*",
-      "effect": "allow"
+      "effect": "allow",
+      "resource": "*"
     },
     {
       "action": "read",
-      "resource": "*",
-      "effect": "allow"
+      "effect": "allow",
+      "resource": "*"
     }
   ],
   "update": "disable"

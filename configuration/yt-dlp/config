@@ -1,3 +1,4 @@
 --merge-output-format mkv
 --no-windows-filenames
 --output "[%(timestamp>%Y.%m.%d)s] %(title)s [%(id)s].%(ext)s"
+--remux-video mkv

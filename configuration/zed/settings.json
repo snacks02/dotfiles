@@ -5,17 +5,6 @@
       "position": "right",
     },
   },
-  "agent_servers": {
-    "opencode-v2": {
-      "default_config_options": {
-        "model": "opencode-go/kimi-k2.7-code",
-      },
-      "favorite_config_option_values": {
-        "model": ["opencode-go/kimi-k2.7-code"],
-      },
-      "type": "registry",
-    },
-  },
   "auto_install_extensions": {
     "dockerfile": true,
     "fish": true,
@@ -72,6 +61,7 @@
     "trust_all_worktrees": true,
   },
   "show_whitespaces": "none",
+  "suggest_extensions": false,
   "tab_bar": {
     "show_nav_history_buttons": false,
     "show_tab_bar_buttons": false,
